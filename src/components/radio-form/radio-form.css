@@ -1,0 +1,59 @@
+.radio-question{
+    background-color: #033028;
+    padding: 16px;
+    text-align: left;
+    z-index: 3;
+    width: min-content;
+    border-radius: 16px;
+    border: 1px solid #086F5C;
+}
+.radio-question > p{
+  margin: 0 0 26px;
+}
+
+.radio-opt{
+    display: flex;
+    gap:8px;
+}
+
+.word_opts {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 343px;
+  height: 62px;
+
+  padding: 10px;
+
+  background: #004D40;
+  color: #60F67E;
+  outline: none;
+  border-radius: 12px;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+  
+label input[type="radio"]:checked + .word_opts {
+  background: #4f837b;
+}
+
+input{
+  display:none;
+}
+
+
+@media (max-width: 1640px){
+
+
+  .word_opts {
+    width: 243px;
+    height: 42px;
+  }
+}
+
+

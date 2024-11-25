@@ -1,0 +1,14 @@
+.button-control{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    align-items: center;
+    gap: 6px;
+}
+
+.button-control > span{
+    margin-top: 4px;
+}
